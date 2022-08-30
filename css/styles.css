@@ -103,6 +103,25 @@ header {
   column-gap: 50px;
 }
 
+.contacts a {
+  display: flex;
+  align-items: center;
+}
+
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .site-nav .current {
   color: var(--color-hover);
 }
@@ -255,6 +274,42 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.antenna {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(/images/svg/antenna.svg), url(/images/Rectangle3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clock {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(/images/svg/clock.svg), url(/images/Rectangle3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.diagram {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(/images/svg/diagram.svg), url(/images/Rectangle3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.astronaut {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-image: url(/images/svg/astronaut.svg), url(/images/Rectangle3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Чим ми займаємося */
