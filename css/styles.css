@@ -226,6 +226,7 @@ header {
 .button-portf:active {
   color: var(--hero-text-color);
   background-color: var(--color-hover);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .buttons-block {
@@ -429,6 +430,10 @@ header {
   padding: 20px 24px;
 }
 
+.example-link:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* ---Футер--- */
 
 .footer-block {
@@ -496,7 +501,7 @@ footer a {
   padding: 12px;
   border-radius: 50%;
   fill: var(--white-color);
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .icon-footer-link:hover,
