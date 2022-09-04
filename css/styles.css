@@ -374,6 +374,29 @@ header {
   fill: var(--white-color);
 }
 
+/* Постійні клієнти */
+
+.customers-block {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.icon-client {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+
+.icon-client:hover,
+.icon-client:focus {
+  fill: var(--color-hover);
+  border-color: var(--color-hover);
+}
+
 /* Приклади робіт - стор.Портфоліо */
 
 .example-title {
