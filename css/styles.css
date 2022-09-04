@@ -156,6 +156,7 @@ header {
 /* ---Основний контент--- */
 
 /* Герой */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -276,40 +277,12 @@ header {
   line-height: 1.71;
 }
 
-.antenna {
+.icons-features {
+  padding: 25px 100px;
+  margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  margin-bottom: 30px;
-  background-image: url(/images/svg/antenna.svg), url(/images/Rectangle3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.clock {
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-image: url(/images/svg/clock.svg), url(/images/Rectangle3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.diagram {
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-image: url(/images/svg/diagram.svg), url(/images/Rectangle3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.astronaut {
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-image: url(/images/svg/astronaut.svg), url(/images/Rectangle3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(/images/Rectangle3.jpg);
 }
 
 /* Чим ми займаємося */
@@ -359,7 +332,7 @@ header {
   line-height: 1.19;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .team-block {
@@ -368,12 +341,37 @@ header {
   gap: 30px;
 }
 
-.team-block li {
+.team-case {
   flex-basis: calc((100% - 90px) / 4);
   background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 27px;
+  gap: 10px;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--color-hover);
+  fill: var(--white-color);
 }
 
 /* Приклади робіт - стор.Портфоліо */
