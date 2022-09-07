@@ -167,10 +167,11 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  min-width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/hero-img.jpg);
+    url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -279,11 +280,14 @@ header {
 }
 
 .icons-features {
-  padding: 25px 100px;
+  display: flex;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
-  width: 270px;
+
   height: 120px;
-  background-image: url(/images/Rectangle3.jpg);
 }
 
 /* Чим ми займаємося */
@@ -333,7 +337,7 @@ header {
   line-height: 1.19;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .team-block {
@@ -361,10 +365,9 @@ header {
 .icon-link {
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   width: 44px;
   height: 44px;
-  padding: 12px;
   border-radius: 50%;
   fill: #afb1b8;
 }
@@ -412,6 +415,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  color: var(--text-color);
 }
 
 .example-block {
@@ -461,6 +465,10 @@ footer a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.02em;
+}
+
+.footer-hover:hover {
+  color: var(--color-hover);
 }
 
 .footer-contacts li:nth-child(-n + 2) {
