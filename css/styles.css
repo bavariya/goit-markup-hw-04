@@ -467,7 +467,7 @@ footer a {
   letter-spacing: 0.02em;
 }
 
-.footer-hover:hover {
+.footer-hover:hover, .footer-hover:focus {
   color: var(--color-hover);
 }
 
